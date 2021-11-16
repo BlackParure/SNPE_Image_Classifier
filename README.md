@@ -4,23 +4,23 @@ This is the implementation step of SNPE Image Classifier Tutorial, fixed some ou
 As the tutorial is writen for old version, directly follow the tutorial will cause a lot of problem. so we should make some change in its gradle files.
 
 In *build.gradle(Project:image-classifiers)*, we substitute,
-'''
+```
 compile files('libs/snpe-release.aar')
-'''
+```
 with
-'''
+```
 implementation files('libs/snpe-release.aar')
-'''
+```
 And chage *compileSdkVersion* to *21*, *buildToolsVersion* to *"21"*.
 
 Then change the *sourceSets* with,
-'''
+```
   sourceSets {
       main{
           jniLibs.srcDirs=['src/main/libs']
       }
   }
-'''
+```
 
 In *build.gradle(Project:image-classifiers)*, we add *google()* at the top of *buildscript->repositories*.
 
