@@ -11,7 +11,7 @@ with
 ```
 implementation files('libs/snpe-release.aar')
 ```
-And chage *compileSdkVersion* to *21*, *buildToolsVersion* to *"21"*.
+And change `compileSdkVersion` to *21*, `buildToolsVersion` to *"21"*.
 
 Then change the *sourceSets* with,
 ```
@@ -22,7 +22,7 @@ Then change the *sourceSets* with,
   }
 ```
 
-In *build.gradle(Project:image-classifiers)*, we add *google()* at the top of *buildscript->repositories*.
+In *build.gradle(Project:image-classifiers)*, we add `google()` at the top of *buildscript->repositories*.
 
-Finally, if you use Andriod Studio, go to *file->project structure* and set *Android Gradle Plugin Version* to *3.3.2*, *Gradle Version* to *4.10.1*.
+Finally, if you use Andriod Studio, go to *file->project structure* and set `Android Gradle Plugin Version` to *3.3.2*, `Gradle Version` to *4.10.1*.
 
