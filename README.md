@@ -1,7 +1,7 @@
 # SNPE_Image_Classifier
 This is the implementation step of SNPE Image Classifier Tutorial, fixed some out-of-date problem in original code.
 
-##Original Work Flow
+## Original Work Flow
 
 As the tutorial is writen for old version, directly follow the tutorial will cause a lot of problem. so we should make some change in its gradle files.
 
